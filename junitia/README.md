@@ -1,7 +1,7 @@
 JUnit in Action
 ===============
 
-[Notes](notes.md)
+[Defenitions and Notes](notes.md)
 
 Lifecycle
 ---------
@@ -37,3 +37,14 @@ Assumptions
 -----------
 * assumeTrue
 * assumingThat
+
+Dependency Injection for parameters of constructors and methods
+---------------------------------------------------------------
+* org.junit.jupiter.api.TestInfo
+* org.junit.jupiter.api.TestReporter
+* org.junit.jupiter.api.RepetitionInfo
+
+Repeated tests
+--------------
+* @RepeatedTest
+* org.junit.jupiter.api.RepetitionInfo
