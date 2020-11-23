@@ -26,3 +26,9 @@ Tagging
 </configuration>
 ```
 2 - Use Intellij configuration: Run -> Run -> Edit Configurations -> Test kind: Tags
+
+Asserts
+-------
+* assertAll
+* assertTimeout, assertTimeoutPreemptively
+* assertThrows
