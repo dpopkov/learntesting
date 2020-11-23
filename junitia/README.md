@@ -32,3 +32,8 @@ Asserts
 * assertAll
 * assertTimeout, assertTimeoutPreemptively
 * assertThrows
+
+Assumptions
+-----------
+* assumeTrue
+* assumingThat
