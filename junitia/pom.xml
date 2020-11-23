@@ -36,6 +36,11 @@
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
+                <!-- Uncomment or Comment the configuration section below to filter tests by tags. -->
+                <!--<configuration>
+                    <groups>individual</groups>
+                    <excludedGroups>repository</excludedGroups>
+                </configuration>-->
             </plugin>
         </plugins>
     </build>
