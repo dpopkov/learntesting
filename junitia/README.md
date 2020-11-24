@@ -53,3 +53,10 @@ Parameterized tests
 -------------------
 * @ParameterizedTest
 * @ValueSource, @EnumSource, @CsvSource, @CsvFileSource
+
+Dynamic tests
+-------------
+* @TestFactory
+* org.junit.jupiter.api.DynamicNode
+* org.junit.jupiter.api.DynamicTest
+* org.junit.jupiter.api.DynamicContainer
