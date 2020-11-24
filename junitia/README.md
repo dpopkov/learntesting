@@ -48,3 +48,8 @@ Repeated tests
 --------------
 * @RepeatedTest
 * org.junit.jupiter.api.RepetitionInfo
+
+Parameterized tests
+-------------------
+* @ParameterizedTest
+* @ValueSource, @EnumSource, @CsvSource, @CsvFileSource
