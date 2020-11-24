@@ -60,3 +60,25 @@ Dynamic tests
 * org.junit.jupiter.api.DynamicNode
 * org.junit.jupiter.api.DynamicTest
 * org.junit.jupiter.api.DynamicContainer
+
+Using Hamcrest Matchers
+-----------------------
+
+Factory method  | Logical
+----------------|--------
+anything        | Matches absolutely anything; useful when we want to make the assert statement more readable
+is              | Used only to improve the readability of statements
+allOf           | Checks whether all contained matchers match (like the && operator)
+anyOf           | Checks whether any of the contained matchers match (like the OR operator)
+not             | Inverts the meaning of the contained matchers
+instanceOf      | Check whether objects are instances of one another
+sameInstance    | Tests object identity
+nullValue, notNullValue | Tests for null or non-null values
+hasProperty     | Tests whether a Java Bean has a certain property
+hasEntry, hasKey, hasValue  | Tests whether a given Map has a given entry, key, or value
+hasItem, hasItems           | Tests a given collection for the presence of an item or items
+closeTo, greaterThan, greaterThanOrEqualTo, | Tests the given numbers
+lessThan, lessThanOrEqualTo | Tests the given numbers
+equalToIgnoringCase         | Tests whether a given string equals another one, ignoring the case
+equalToIgnoringWhiteSpace   | Tests whether a given string equals another one, ignoring white space
+containsString, endsWith, startsWith    | Tests whether a given string contains, starts with, or ends with a certain string
