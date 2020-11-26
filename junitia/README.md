@@ -82,3 +82,11 @@ lessThan, lessThanOrEqualTo | Tests the given numbers
 equalToIgnoringCase         | Tests whether a given string equals another one, ignoring the case
 equalToIgnoringWhiteSpace   | Tests whether a given string equals another one, ignoring white space
 containsString, endsWith, startsWith    | Tests whether a given string contains, starts with, or ends with a certain string
+
+Testing with stubs
+------------------
+
+### Stubbing the web server resources
+
+Complicated approach to stub web resources (Integration Test actually):
+[How to stub a web server](src/test/java/learn/junitia/ch07stubs/StubbingHttpServerWebClientTest.java)

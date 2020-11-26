@@ -14,6 +14,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
         <hamcrest.version>2.2</hamcrest.version>
+        <jetty.version>9.4.34.v20201102</jetty.version>
     </properties>
 
     <dependencies>
@@ -41,6 +42,18 @@
             <version>${hamcrest.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- New Jetty (comment to use old Jetty) -->
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+        <!-- Old Jetty (uncomment to use) -->
+        <!--<dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty</artifactId>
+            <version>7.0.0.pre5</version>
+        </dependency>-->
     </dependencies>
 
     <build>

@@ -12,3 +12,11 @@ __API contract__ - A view of an application programming interface (API) as a for
 The notion of an API contract arises from the practice of Design by Contract, popularized by the Eiffel programming language (http://archive.eiffel.com/doc/manuals/technology/contract).
 
 __Core principle of unit testing__ - "Any program feature without an automated test simply doesn't exist." (Kent Beck, Extreme Programming Explained)
+
+__Test-driven development (TDD)__ - A programming practice that instructs developers to write test first and then
+write the code that makes the software pass those tests. Then the developer examines the code and refactors it 
+to clean up any mess or improve things. The goal of TDD is clean code that works.
+
+__Stub__ - A piece of code that is inserted at runtime in place of the real code to isolate the caller from 
+the real implementation. The intent is to replace a complex behavior with a simpler one that allows independent 
+testing of some part of the real code.
