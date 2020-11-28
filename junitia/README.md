@@ -95,3 +95,7 @@ Complicated approach to stub web resources (Integration Test actually):
 
 The easier approach to stub the connection instead of a whole server:
 [How to stub a connection](src/test/java/learn/junitia/ch07stubs/StubbingConnectionWebClientTest.java)
+
+
+Testing with mocks
+------------------
