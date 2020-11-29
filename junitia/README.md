@@ -109,3 +109,8 @@ and is tested in [WebClientRefactoredTest](src/test/java/learn/junitia/ch08mocks
 using mocked connection [MockHttpURLConnection](src/test/java/learn/junitia/ch08mocks/web/MockHttpURLConnection.java).
 
 #### 2 - Refactoring by using a class factory
+[WebClientRefactored2](src/main/java/learn/junitia/ch08mocks/web/WebClientRefactored2.java) 
+uses [ConnectionFactory](src/main/java/learn/junitia/ch08mocks/web/ConnectionFactory.java) interface
+which is easily mocked by [MockConnectionFactory](src/test/java/learn/junitia/ch08mocks/web/MockConnectionFactory.java)
+so that WebClientRefactored2 can easily be tested in 
+[WebClientRefactored2Test](src/test/java/learn/junitia/ch08mocks/web/WebClientRefactored2Test.java). 
