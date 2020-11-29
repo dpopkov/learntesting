@@ -99,3 +99,13 @@ The easier approach to stub the connection instead of a whole server:
 
 Testing with mocks
 ------------------
+
+### Mocking without mock frameworks
+
+#### 1 - Refactoring plus Extending
+[WebClientRefactored](src/main/java/learn/junitia/ch08mocks/web/WebClientRefactored.java) is extended to
+[TestableWebClient](src/test/java/learn/junitia/ch08mocks/web/TestableWebClient.java) (with Factory Method pattern)
+and is tested in [WebClientRefactoredTest](src/test/java/learn/junitia/ch08mocks/web/WebClientRefactoredTest.java)
+using mocked connection [MockHttpURLConnection](src/test/java/learn/junitia/ch08mocks/web/MockHttpURLConnection.java).
+
+#### 2 - Refactoring by using a class factory
