@@ -15,6 +15,7 @@
         <junit-jupiter.version>5.7.0</junit-jupiter.version>
         <hamcrest.version>2.2</hamcrest.version>
         <jetty.version>9.4.34.v20201102</jetty.version>
+        <commons-logging.version>1.2</commons-logging.version>
     </properties>
 
     <dependencies>
@@ -54,6 +55,11 @@
             <artifactId>jetty</artifactId>
             <version>7.0.0.pre5</version>
         </dependency>-->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commons-logging.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
